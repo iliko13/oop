@@ -27,7 +27,7 @@ function Person(mName , mYear , mCars) {
     this.drivecar = function(car) {
         document.write(this.name + "yavs" + car.make)
     }
-    this.displayInfo = function(car) {
+    this.displayInfo = function() {
         document.write(this.name + "aris" + this.year)
     }
 }
